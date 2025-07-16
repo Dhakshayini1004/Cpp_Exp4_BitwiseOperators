@@ -26,14 +26,14 @@ To:
 - Digital logic simulation
 - Memory-efficient coding (e.g., flags and masks)
 
-| Operator    | Symbol | Description                                      |
-|-------------|--------|--------------------------------------------------|
-| AND         | `&`    | Sets bit to 1 **only if both bits are 1**        |
-| OR          | `|`    | Sets bit to 1 **if at least one bit is 1**       |
-| XOR         | `^`    | Sets bit to 1 **if only one of the bits is 1**   |
-| NOT         | `~`    | **Inverts all bits** (0 becomes 1, 1 becomes 0)  |
-| Left Shift  | `<<`   | Shifts bits to the **left**, multiplying by 2    |
-| Right Shift | `>>`   | Shifts bits to the **right**, dividing by 2      |
+| Operator    | Symbol | Description                                  |
+|-------------|--------|----------------------------------------------|
+| AND         | `&`    | Sets bit to 1 only if both bits are 1        |
+| OR          | `|`    | Sets bit to 1 if at least one bit is 1       |
+| XOR         | `^`    | Sets bit to 1 if only one of the bits is 1   |
+| NOT         | `~`    | Inverts all bits (0 becomes 1, 1 becomes 0)  |
+| Left Shift  | `<<`   | Shifts bits to the left, multiplying by 2    |
+| Right Shift | `>>`   | Shifts bits to the right, dividing by 2      |
     
 
 ###  Set and Reset a Bit
