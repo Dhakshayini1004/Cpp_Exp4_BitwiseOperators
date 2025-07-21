@@ -25,3 +25,16 @@ cout<<"NOT :"<<(~n)<<endl;
 
 return 0;
 }
+
+/*Sample Output
+Enter a number to be set: 
+33
+Enter the position of bit to be set: 
+4
+Enter a number to be reset: 
+44
+Enter the position of bit to be reset: 
+5
+Set number: 49
+Reset number: 12
+*/
