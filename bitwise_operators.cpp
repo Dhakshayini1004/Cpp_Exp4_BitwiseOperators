@@ -27,14 +27,13 @@ return 0;
 }
 
 /*Sample Output
-Enter a number to be set: 
+Enter 2 numbers :
 33
-Enter the position of bit to be set: 
-4
-Enter a number to be reset: 
-44
-Enter the position of bit to be reset: 
-5
-Set number: 49
-Reset number: 12
+55
+And :33
+XOR :22
+OR :55
+Left Shift :132
+Right Shift :8
+NOT :-56
 */
