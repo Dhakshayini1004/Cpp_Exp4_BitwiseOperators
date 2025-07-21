@@ -7,6 +7,11 @@ To:
 2. To set and reset specific bits of given number
 
 ---
+## Tool Used
+
+VS Code
+
+---
 
 ## Objectives
 
