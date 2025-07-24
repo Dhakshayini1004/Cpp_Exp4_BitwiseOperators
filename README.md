@@ -40,6 +40,7 @@ VS Code
 | Left Shift  | `<<`   | Shifts bits to the left, multiplying by 2       |
 | Right Shift | `>>`   | Shifts bits to the right, dividing by 2         |
 
+--- 
 
 ### Why Do We Need Bitwise Operators in C++
 
@@ -75,6 +76,8 @@ VS Code
 - **Avoiding Division and Multiplication**
   - Shift operators (`<<` and `>>`) can be used in place of multiplication or division by powers of two.
 
+--- 
+
 ###  Set and Reset a Bit
 - In many applications, especially in embedded systems, hardware control, and memory optimization, we often need to change only one specific bit in a number — not the whole number.
 
@@ -93,9 +96,11 @@ VS Code
 - `~` inverts the mask to have 0 at the bit we want to reset.
 - Bitwise AND & turns that bit to 0, leaving other bits unchanged.
 
+--- 
+
 ## Program Description
 
-### ✅ Part 1: Syntax
+###  Part 1: Syntax
 - We define 2 numbers and perform bitwise operations on them.
 - `AND` returns 1 only when both the bit inputs are 1.
 - `Right Shift` shifts all the 1s towards right side, basically divides the number by 2.
@@ -105,7 +110,7 @@ VS Code
 - `OR` returns 1 even if any of the bit input is 1.
 - However, the output of the program is decimal.
   
-### ✅ Part 2: Logic
+###  Part 2: Logic
  - Set specific bits -  num | (1 << bit_position)
  - Reset specific bits - num & (~(1 << bit_position))
 ---
